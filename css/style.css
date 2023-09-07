@@ -1,0 +1,30 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+
+.textDescription {
+  overflow-y: scroll;
+  height: 100px;
+}
+.card-img-top{
+  height: 250px;
+overflow: hidden;
+}
+
+.card{ 
+  width: 20rem;
+  margin: 10px;
+  margin-top: 20px;
+  height: 450px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 20px;
+  background-color: white;
+  justify-content: space-between
+}
